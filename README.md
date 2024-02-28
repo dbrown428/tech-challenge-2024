@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Technical Challenge
 
-First, run the development server:
+If you could please complete the following steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Please document your code appropriately.
+2. Set up a NextJS project with TypeScript.
+3. Ensure your project is set up with git.
+4. Use the ChakraUI component library for UI elements.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Have a welcome modal with two separate slides:
+a. On the first modal slide, have the user set a username.
+b. On the second modal slide, have the user set their job title.
+c. Save the user’s username and job title information in the way you best see fit.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+i. You should be able to view this information somewhere in full once you log in. 
+ii. You should be able to change this information after you log in.
+d. The user’s information should also be persisted.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+6. Use Apollo client to query a public GraphQL API.
 
-## Learn More
+7. Display the GraphQL API data as items on an “Information Page” that is mobile and tablet compatible.
 
-To learn more about Next.js, take a look at the following resources:
+8. Users should not be able to view the “Information Page” until the user has set their information.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+9. Have it so when you click a listed item on the “Information Page”, it should open a modal that displays the information about that item.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+10. Deploy on Vercel free tier.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+At Leonardo.Ai we prefer to have as few dependencies as possible. Please follow this guideline during your test.
+We will be evaluating you on your ability to take initiative and think about the user experience, accessibility, and the product quality as a whole. We will be grading you as if this were a product you are publishing to production.
+For public GraphQL APIs, you could look here - https://github.com/IvanGoncharov/graphql-apis - there are demo APIs at the bottom of the page.
+Please ensure we can access your project and relevant code for grading.
+Let us know if you have any questions! Good Luck

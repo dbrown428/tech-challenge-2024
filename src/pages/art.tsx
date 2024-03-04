@@ -57,7 +57,7 @@ export default function BrowseArt() {
           )}
 
           <div>
-            {artists.map((artist) => {
+            {isAuthorized && artists.map((artist) => {
               const loadArtistDetails = () => setFocalArist(artist)
               return (
                 <div key={`artwork.${artist.id}`}>

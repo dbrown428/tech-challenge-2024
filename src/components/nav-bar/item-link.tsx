@@ -4,6 +4,7 @@ import Item from "./item-base"
 interface Properties {
   href: string
   children: any
+  newWindow?: boolean
 }
 
 /**
@@ -12,8 +13,9 @@ interface Properties {
  * into a separate component.
  */
 export default function LinkItem(props: Properties) {
+  const newWindow = props.newWindow ?? false
   return (
-    <Link href={props.href}>
+    <Link href={props.href} target={newWindow ? '_blank' : '_self'}>
       <Item>
         {props.children}
       </Item>

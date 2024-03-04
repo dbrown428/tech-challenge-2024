@@ -28,7 +28,7 @@ export default function Bar(props: Properties) {
       <nav className='flex px-6 py-2 space-x-2 items-center'>
         <div className='font-bold text-2xl mr-6'><Link href='/'>DaVinci</Link></div>
         <LinkItem href='art'>Browse</LinkItem>
-        <LinkItem href='https://github.com/dbrown428/tech-challenge-2024'>Code</LinkItem>
+        <LinkItem href='https://github.com/dbrown428/tech-challenge-2024' newWindow>Code</LinkItem>
         <div className='grow'/>
         <ActionItem onClick={props.action.onClick}>{props.action.label}</ActionItem>
       </nav>
